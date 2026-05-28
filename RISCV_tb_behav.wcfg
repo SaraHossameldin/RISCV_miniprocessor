@@ -1,0 +1,1735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="RISCV_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="RISCV_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,000.000 ns"></ZoomEndTime>
+      <Cursor1Time time="925.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="203"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/RISCV_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_tb/Seba/sclk" type="logic">
+      <obj_property name="ElementShortName">sclk</obj_property>
+      <obj_property name="ObjectShortName">sclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_tb/Seba/n_sclk" type="logic">
+      <obj_property name="ElementShortName">n_sclk</obj_property>
+      <obj_property name="ObjectShortName">n_sclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="group246" type="group">
+      <obj_property name="label">Memory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/MemRead" type="logic">
+         <obj_property name="ElementShortName">MemRead</obj_property>
+         <obj_property name="ObjectShortName">MemRead</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/MemWrite" type="logic">
+         <obj_property name="ElementShortName">MemWrite</obj_property>
+         <obj_property name="ObjectShortName">MemWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/addr" type="array">
+         <obj_property name="ElementShortName">addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/data_out" type="array">
+         <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem" type="array">
+         <obj_property name="ElementShortName">mem[0:63][31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem[0:63][31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[0]" type="array">
+            <obj_property name="ElementShortName">[0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[1]" type="array">
+            <obj_property name="ElementShortName">[1][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[2]" type="array">
+            <obj_property name="ElementShortName">[2][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[3]" type="array">
+            <obj_property name="ElementShortName">[3][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[4]" type="array">
+            <obj_property name="ElementShortName">[4][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[5]" type="array">
+            <obj_property name="ElementShortName">[5][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[6]" type="array">
+            <obj_property name="ElementShortName">[6][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[7]" type="array">
+            <obj_property name="ElementShortName">[7][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[8]" type="array">
+            <obj_property name="ElementShortName">[8][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[9]" type="array">
+            <obj_property name="ElementShortName">[9][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[10]" type="array">
+            <obj_property name="ElementShortName">[10][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[11]" type="array">
+            <obj_property name="ElementShortName">[11][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[12]" type="array">
+            <obj_property name="ElementShortName">[12][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[13]" type="array">
+            <obj_property name="ElementShortName">[13][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[14]" type="array">
+            <obj_property name="ElementShortName">[14][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[15]" type="array">
+            <obj_property name="ElementShortName">[15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[16]" type="array">
+            <obj_property name="ElementShortName">[16][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[17]" type="array">
+            <obj_property name="ElementShortName">[17][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[17][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[18]" type="array">
+            <obj_property name="ElementShortName">[18][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[18][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[19]" type="array">
+            <obj_property name="ElementShortName">[19][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[19][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[20]" type="array">
+            <obj_property name="ElementShortName">[20][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[20][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[21]" type="array">
+            <obj_property name="ElementShortName">[21][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[21][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[22]" type="array">
+            <obj_property name="ElementShortName">[22][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[22][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[23]" type="array">
+            <obj_property name="ElementShortName">[23][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[23][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[24]" type="array">
+            <obj_property name="ElementShortName">[24][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[24][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[25]" type="array">
+            <obj_property name="ElementShortName">[25][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[25][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[26]" type="array">
+            <obj_property name="ElementShortName">[26][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[26][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[27]" type="array">
+            <obj_property name="ElementShortName">[27][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[27][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[28]" type="array">
+            <obj_property name="ElementShortName">[28][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[28][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[29]" type="array">
+            <obj_property name="ElementShortName">[29][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[29][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[30]" type="array">
+            <obj_property name="ElementShortName">[30][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[31]" type="array">
+            <obj_property name="ElementShortName">[31][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[32]" type="array">
+            <obj_property name="ElementShortName">[32][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[32][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[33]" type="array">
+            <obj_property name="ElementShortName">[33][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[33][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[34]" type="array">
+            <obj_property name="ElementShortName">[34][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[34][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[35]" type="array">
+            <obj_property name="ElementShortName">[35][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[35][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[36]" type="array">
+            <obj_property name="ElementShortName">[36][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[36][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[37]" type="array">
+            <obj_property name="ElementShortName">[37][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[37][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[38]" type="array">
+            <obj_property name="ElementShortName">[38][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[38][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[39]" type="array">
+            <obj_property name="ElementShortName">[39][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[39][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[40]" type="array">
+            <obj_property name="ElementShortName">[40][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[40][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[41]" type="array">
+            <obj_property name="ElementShortName">[41][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[41][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[42]" type="array">
+            <obj_property name="ElementShortName">[42][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[42][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[43]" type="array">
+            <obj_property name="ElementShortName">[43][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[43][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[44]" type="array">
+            <obj_property name="ElementShortName">[44][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[44][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[45]" type="array">
+            <obj_property name="ElementShortName">[45][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[45][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[46]" type="array">
+            <obj_property name="ElementShortName">[46][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[46][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[47]" type="array">
+            <obj_property name="ElementShortName">[47][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[47][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[48]" type="array">
+            <obj_property name="ElementShortName">[48][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[48][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[49]" type="array">
+            <obj_property name="ElementShortName">[49][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[49][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[50]" type="array">
+            <obj_property name="ElementShortName">[50][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[50][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[51]" type="array">
+            <obj_property name="ElementShortName">[51][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[51][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[52]" type="array">
+            <obj_property name="ElementShortName">[52][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[52][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[53]" type="array">
+            <obj_property name="ElementShortName">[53][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[53][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[54]" type="array">
+            <obj_property name="ElementShortName">[54][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[54][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[55]" type="array">
+            <obj_property name="ElementShortName">[55][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[55][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[56]" type="array">
+            <obj_property name="ElementShortName">[56][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[56][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[57]" type="array">
+            <obj_property name="ElementShortName">[57][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[57][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[58]" type="array">
+            <obj_property name="ElementShortName">[58][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[58][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[59]" type="array">
+            <obj_property name="ElementShortName">[59][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[59][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[60]" type="array">
+            <obj_property name="ElementShortName">[60][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[60][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[61]" type="array">
+            <obj_property name="ElementShortName">[61][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[61][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[62]" type="array">
+            <obj_property name="ElementShortName">[62][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[62][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[63]" type="array">
+            <obj_property name="ElementShortName">[63][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[63][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[0]" type="array">
+            <obj_property name="ElementShortName">[0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[1]" type="array">
+            <obj_property name="ElementShortName">[1][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[2]" type="array">
+            <obj_property name="ElementShortName">[2][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[3]" type="array">
+            <obj_property name="ElementShortName">[3][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[4]" type="array">
+            <obj_property name="ElementShortName">[4][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[5]" type="array">
+            <obj_property name="ElementShortName">[5][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[6]" type="array">
+            <obj_property name="ElementShortName">[6][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[7]" type="array">
+            <obj_property name="ElementShortName">[7][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[8]" type="array">
+            <obj_property name="ElementShortName">[8][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[9]" type="array">
+            <obj_property name="ElementShortName">[9][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[10]" type="array">
+            <obj_property name="ElementShortName">[10][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[11]" type="array">
+            <obj_property name="ElementShortName">[11][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[12]" type="array">
+            <obj_property name="ElementShortName">[12][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[13]" type="array">
+            <obj_property name="ElementShortName">[13][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[14]" type="array">
+            <obj_property name="ElementShortName">[14][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[15]" type="array">
+            <obj_property name="ElementShortName">[15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[16]" type="array">
+            <obj_property name="ElementShortName">[16][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[17]" type="array">
+            <obj_property name="ElementShortName">[17][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[17][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[18]" type="array">
+            <obj_property name="ElementShortName">[18][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[18][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[19]" type="array">
+            <obj_property name="ElementShortName">[19][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[19][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[20]" type="array">
+            <obj_property name="ElementShortName">[20][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[20][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[21]" type="array">
+            <obj_property name="ElementShortName">[21][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[21][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[22]" type="array">
+            <obj_property name="ElementShortName">[22][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[22][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[23]" type="array">
+            <obj_property name="ElementShortName">[23][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[23][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[24]" type="array">
+            <obj_property name="ElementShortName">[24][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[24][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[25]" type="array">
+            <obj_property name="ElementShortName">[25][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[25][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[26]" type="array">
+            <obj_property name="ElementShortName">[26][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[26][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[27]" type="array">
+            <obj_property name="ElementShortName">[27][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[27][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[28]" type="array">
+            <obj_property name="ElementShortName">[28][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[28][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[29]" type="array">
+            <obj_property name="ElementShortName">[29][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[29][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[30]" type="array">
+            <obj_property name="ElementShortName">[30][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[31]" type="array">
+            <obj_property name="ElementShortName">[31][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[32]" type="array">
+            <obj_property name="ElementShortName">[32][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[32][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[33]" type="array">
+            <obj_property name="ElementShortName">[33][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[33][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[34]" type="array">
+            <obj_property name="ElementShortName">[34][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[34][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[35]" type="array">
+            <obj_property name="ElementShortName">[35][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[35][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[36]" type="array">
+            <obj_property name="ElementShortName">[36][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[36][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[37]" type="array">
+            <obj_property name="ElementShortName">[37][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[37][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[38]" type="array">
+            <obj_property name="ElementShortName">[38][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[38][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[39]" type="array">
+            <obj_property name="ElementShortName">[39][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[39][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[40]" type="array">
+            <obj_property name="ElementShortName">[40][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[40][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[41]" type="array">
+            <obj_property name="ElementShortName">[41][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[41][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[42]" type="array">
+            <obj_property name="ElementShortName">[42][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[42][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[43]" type="array">
+            <obj_property name="ElementShortName">[43][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[43][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[44]" type="array">
+            <obj_property name="ElementShortName">[44][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[44][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[45]" type="array">
+            <obj_property name="ElementShortName">[45][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[45][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[46]" type="array">
+            <obj_property name="ElementShortName">[46][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[46][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[47]" type="array">
+            <obj_property name="ElementShortName">[47][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[47][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[48]" type="array">
+            <obj_property name="ElementShortName">[48][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[48][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[49]" type="array">
+            <obj_property name="ElementShortName">[49][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[49][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[50]" type="array">
+            <obj_property name="ElementShortName">[50][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[50][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[51]" type="array">
+            <obj_property name="ElementShortName">[51][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[51][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[52]" type="array">
+            <obj_property name="ElementShortName">[52][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[52][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[53]" type="array">
+            <obj_property name="ElementShortName">[53][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[53][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[54]" type="array">
+            <obj_property name="ElementShortName">[54][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[54][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[55]" type="array">
+            <obj_property name="ElementShortName">[55][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[55][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[56]" type="array">
+            <obj_property name="ElementShortName">[56][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[56][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[57]" type="array">
+            <obj_property name="ElementShortName">[57][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[57][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[58]" type="array">
+            <obj_property name="ElementShortName">[58][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[58][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[59]" type="array">
+            <obj_property name="ElementShortName">[59][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[59][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[60]" type="array">
+            <obj_property name="ElementShortName">[60][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[60][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[61]" type="array">
+            <obj_property name="ElementShortName">[61][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[61][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[62]" type="array">
+            <obj_property name="ElementShortName">[62][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[62][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/Unified_Mem/mem[63]" type="array">
+            <obj_property name="ElementShortName">[63][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[63][31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group361" type="group">
+      <obj_property name="label">IF/ID</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/RISCV_tb/Seba/IF_ID/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/IF_ID/load" type="logic">
+         <obj_property name="ElementShortName">load</obj_property>
+         <obj_property name="ObjectShortName">load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/IF_ID/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/IF_ID/PC_in" type="array">
+         <obj_property name="ElementShortName">PC_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PC_in[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/IF_ID/Instr_in" type="array">
+         <obj_property name="ElementShortName">Instr_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Instr_in[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/IF_ID/PC_out" type="array">
+         <obj_property name="ElementShortName">PC_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PC_out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/IF_ID/Instr_out" type="array">
+         <obj_property name="ElementShortName">Instr_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Instr_out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group979" type="group">
+      <obj_property name="label">Decode - Control</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT/opcode" type="array">
+         <obj_property name="ElementShortName">opcode[6:0]</obj_property>
+         <obj_property name="ObjectShortName">opcode[6:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT/branch" type="logic">
+         <obj_property name="ElementShortName">branch</obj_property>
+         <obj_property name="ObjectShortName">branch</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT/MemRead" type="logic">
+         <obj_property name="ElementShortName">MemRead</obj_property>
+         <obj_property name="ObjectShortName">MemRead</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT/ALUOp" type="array">
+         <obj_property name="ElementShortName">ALUOp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUOp[1:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT/MemWrite" type="logic">
+         <obj_property name="ElementShortName">MemWrite</obj_property>
+         <obj_property name="ObjectShortName">MemWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT/RegWrite" type="logic">
+         <obj_property name="ElementShortName">RegWrite</obj_property>
+         <obj_property name="ObjectShortName">RegWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT/auipc" type="logic">
+         <obj_property name="ElementShortName">auipc</obj_property>
+         <obj_property name="ObjectShortName">auipc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT/lui" type="logic">
+         <obj_property name="ElementShortName">lui</obj_property>
+         <obj_property name="ObjectShortName">lui</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT/jal" type="logic">
+         <obj_property name="ElementShortName">jal</obj_property>
+         <obj_property name="ObjectShortName">jal</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT/jalr" type="logic">
+         <obj_property name="ElementShortName">jalr</obj_property>
+         <obj_property name="ObjectShortName">jalr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT/ALUSrc" type="logic">
+         <obj_property name="ElementShortName">ALUSrc</obj_property>
+         <obj_property name="ObjectShortName">ALUSrc</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group991" type="group">
+      <obj_property name="label">Decode - RF</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT3/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT3/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT3/regwrite" type="logic">
+         <obj_property name="ElementShortName">regwrite</obj_property>
+         <obj_property name="ObjectShortName">regwrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT3/rs1" type="array">
+         <obj_property name="ElementShortName">rs1[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rs1[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT3/rs2" type="array">
+         <obj_property name="ElementShortName">rs2[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rs2[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT3/writereg" type="array">
+         <obj_property name="ElementShortName">writereg[4:0]</obj_property>
+         <obj_property name="ObjectShortName">writereg[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT3/writedata" type="array">
+         <obj_property name="ElementShortName">writedata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">writedata[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT3/rdata1" type="array">
+         <obj_property name="ElementShortName">rdata1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rdata1[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT3/rdata2" type="array">
+         <obj_property name="ElementShortName">rdata2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rdata2[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile" type="array">
+         <obj_property name="ElementShortName">regfile[31:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">regfile[31:0][31:0]</obj_property>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[31]" type="array">
+            <obj_property name="ElementShortName">[31][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[30]" type="array">
+            <obj_property name="ElementShortName">[30][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[29]" type="array">
+            <obj_property name="ElementShortName">[29][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[29][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[28]" type="array">
+            <obj_property name="ElementShortName">[28][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[28][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[27]" type="array">
+            <obj_property name="ElementShortName">[27][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[27][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[26]" type="array">
+            <obj_property name="ElementShortName">[26][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[26][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[25]" type="array">
+            <obj_property name="ElementShortName">[25][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[25][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[24]" type="array">
+            <obj_property name="ElementShortName">[24][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[24][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[23]" type="array">
+            <obj_property name="ElementShortName">[23][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[23][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[22]" type="array">
+            <obj_property name="ElementShortName">[22][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[22][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[21]" type="array">
+            <obj_property name="ElementShortName">[21][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[21][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[20]" type="array">
+            <obj_property name="ElementShortName">[20][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[20][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[19]" type="array">
+            <obj_property name="ElementShortName">[19][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[19][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[18]" type="array">
+            <obj_property name="ElementShortName">[18][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[18][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[17]" type="array">
+            <obj_property name="ElementShortName">[17][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[17][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[16]" type="array">
+            <obj_property name="ElementShortName">[16][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[15]" type="array">
+            <obj_property name="ElementShortName">[15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[14]" type="array">
+            <obj_property name="ElementShortName">[14][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[13]" type="array">
+            <obj_property name="ElementShortName">[13][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[12]" type="array">
+            <obj_property name="ElementShortName">[12][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[11]" type="array">
+            <obj_property name="ElementShortName">[11][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[10]" type="array">
+            <obj_property name="ElementShortName">[10][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[9]" type="array">
+            <obj_property name="ElementShortName">[9][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[8]" type="array">
+            <obj_property name="ElementShortName">[8][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[7]" type="array">
+            <obj_property name="ElementShortName">[7][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[6]" type="array">
+            <obj_property name="ElementShortName">[6][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[5]" type="array">
+            <obj_property name="ElementShortName">[5][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[4]" type="array">
+            <obj_property name="ElementShortName">[4][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[3]" type="array">
+            <obj_property name="ElementShortName">[3][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[2]" type="array">
+            <obj_property name="ElementShortName">[2][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[1]" type="array">
+            <obj_property name="ElementShortName">[1][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[0]" type="array">
+            <obj_property name="ElementShortName">[0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[31]" type="array">
+            <obj_property name="ElementShortName">[31][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[30]" type="array">
+            <obj_property name="ElementShortName">[30][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[29]" type="array">
+            <obj_property name="ElementShortName">[29][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[29][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[28]" type="array">
+            <obj_property name="ElementShortName">[28][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[28][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[27]" type="array">
+            <obj_property name="ElementShortName">[27][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[27][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[26]" type="array">
+            <obj_property name="ElementShortName">[26][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[26][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[25]" type="array">
+            <obj_property name="ElementShortName">[25][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[25][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[24]" type="array">
+            <obj_property name="ElementShortName">[24][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[24][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[23]" type="array">
+            <obj_property name="ElementShortName">[23][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[23][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[22]" type="array">
+            <obj_property name="ElementShortName">[22][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[22][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[21]" type="array">
+            <obj_property name="ElementShortName">[21][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[21][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[20]" type="array">
+            <obj_property name="ElementShortName">[20][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[20][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[19]" type="array">
+            <obj_property name="ElementShortName">[19][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[19][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[18]" type="array">
+            <obj_property name="ElementShortName">[18][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[18][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[17]" type="array">
+            <obj_property name="ElementShortName">[17][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[17][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[16]" type="array">
+            <obj_property name="ElementShortName">[16][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[15]" type="array">
+            <obj_property name="ElementShortName">[15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[14]" type="array">
+            <obj_property name="ElementShortName">[14][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[13]" type="array">
+            <obj_property name="ElementShortName">[13][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[12]" type="array">
+            <obj_property name="ElementShortName">[12][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[11]" type="array">
+            <obj_property name="ElementShortName">[11][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[10]" type="array">
+            <obj_property name="ElementShortName">[10][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[9]" type="array">
+            <obj_property name="ElementShortName">[9][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[8]" type="array">
+            <obj_property name="ElementShortName">[8][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[7]" type="array">
+            <obj_property name="ElementShortName">[7][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[6]" type="array">
+            <obj_property name="ElementShortName">[6][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[5]" type="array">
+            <obj_property name="ElementShortName">[5][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[4]" type="array">
+            <obj_property name="ElementShortName">[4][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[3]" type="array">
+            <obj_property name="ElementShortName">[3][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[2]" type="array">
+            <obj_property name="ElementShortName">[2][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[1]" type="array">
+            <obj_property name="ElementShortName">[1][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/RISCV_tb/Seba/DUT3/regfile[0]" type="array">
+            <obj_property name="ElementShortName">[0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT3/i" type="array">
+         <obj_property name="ElementShortName">i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">i[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group995" type="group">
+      <obj_property name="label">Decode - ImmGen</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT5/IR" type="array">
+         <obj_property name="ElementShortName">IR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IR[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT5/Imm" type="array">
+         <obj_property name="ElementShortName">Imm[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Imm[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT5/opcode" type="array">
+         <obj_property name="ElementShortName">opcode[6:0]</obj_property>
+         <obj_property name="ObjectShortName">opcode[6:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group742" type="group">
+      <obj_property name="label">ID/EX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/load" type="logic">
+         <obj_property name="ElementShortName">load</obj_property>
+         <obj_property name="ObjectShortName">load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/branch_in" type="logic">
+         <obj_property name="ElementShortName">branch_in</obj_property>
+         <obj_property name="ObjectShortName">branch_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/MemRead_in" type="logic">
+         <obj_property name="ElementShortName">MemRead_in</obj_property>
+         <obj_property name="ObjectShortName">MemRead_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/MemWrite_in" type="logic">
+         <obj_property name="ElementShortName">MemWrite_in</obj_property>
+         <obj_property name="ObjectShortName">MemWrite_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/ALUOp_in" type="array">
+         <obj_property name="ElementShortName">ALUOp_in[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUOp_in[1:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/ALUSrc_in" type="logic">
+         <obj_property name="ElementShortName">ALUSrc_in</obj_property>
+         <obj_property name="ObjectShortName">ALUSrc_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/RegWrite_in" type="logic">
+         <obj_property name="ElementShortName">RegWrite_in</obj_property>
+         <obj_property name="ObjectShortName">RegWrite_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/auipc_in" type="logic">
+         <obj_property name="ElementShortName">auipc_in</obj_property>
+         <obj_property name="ObjectShortName">auipc_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/lui_in" type="logic">
+         <obj_property name="ElementShortName">lui_in</obj_property>
+         <obj_property name="ObjectShortName">lui_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/jal_in" type="logic">
+         <obj_property name="ElementShortName">jal_in</obj_property>
+         <obj_property name="ObjectShortName">jal_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/jalr_in" type="logic">
+         <obj_property name="ElementShortName">jalr_in</obj_property>
+         <obj_property name="ObjectShortName">jalr_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/PC_in" type="array">
+         <obj_property name="ElementShortName">PC_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PC_in[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/Instr_in" type="array">
+         <obj_property name="ElementShortName">Instr_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Instr_in[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/Readdata1_in" type="array">
+         <obj_property name="ElementShortName">Readdata1_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Readdata1_in[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/Readdata2_in" type="array">
+         <obj_property name="ElementShortName">Readdata2_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Readdata2_in[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/Imm_in" type="array">
+         <obj_property name="ElementShortName">Imm_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Imm_in[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/funct_in" type="array">
+         <obj_property name="ElementShortName">funct_in[3:0]</obj_property>
+         <obj_property name="ObjectShortName">funct_in[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/Rs1_in" type="array">
+         <obj_property name="ElementShortName">Rs1_in[4:0]</obj_property>
+         <obj_property name="ObjectShortName">Rs1_in[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/Rs2_in" type="array">
+         <obj_property name="ElementShortName">Rs2_in[4:0]</obj_property>
+         <obj_property name="ObjectShortName">Rs2_in[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/Rd_in" type="array">
+         <obj_property name="ElementShortName">Rd_in[4:0]</obj_property>
+         <obj_property name="ObjectShortName">Rd_in[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/branch_out" type="logic">
+         <obj_property name="ElementShortName">branch_out</obj_property>
+         <obj_property name="ObjectShortName">branch_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/MemRead_out" type="logic">
+         <obj_property name="ElementShortName">MemRead_out</obj_property>
+         <obj_property name="ObjectShortName">MemRead_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/MemWrite_out" type="logic">
+         <obj_property name="ElementShortName">MemWrite_out</obj_property>
+         <obj_property name="ObjectShortName">MemWrite_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/ALUOp_out" type="array">
+         <obj_property name="ElementShortName">ALUOp_out[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUOp_out[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/ALUSrc_out" type="logic">
+         <obj_property name="ElementShortName">ALUSrc_out</obj_property>
+         <obj_property name="ObjectShortName">ALUSrc_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/RegWrite_out" type="logic">
+         <obj_property name="ElementShortName">RegWrite_out</obj_property>
+         <obj_property name="ObjectShortName">RegWrite_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/auipc_out" type="logic">
+         <obj_property name="ElementShortName">auipc_out</obj_property>
+         <obj_property name="ObjectShortName">auipc_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/lui_out" type="logic">
+         <obj_property name="ElementShortName">lui_out</obj_property>
+         <obj_property name="ObjectShortName">lui_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/jal_out" type="logic">
+         <obj_property name="ElementShortName">jal_out</obj_property>
+         <obj_property name="ObjectShortName">jal_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/jalr_out" type="logic">
+         <obj_property name="ElementShortName">jalr_out</obj_property>
+         <obj_property name="ObjectShortName">jalr_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/PC_out" type="array">
+         <obj_property name="ElementShortName">PC_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PC_out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/Instr_out" type="array">
+         <obj_property name="ElementShortName">Instr_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Instr_out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/Readdata1_out" type="array">
+         <obj_property name="ElementShortName">Readdata1_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Readdata1_out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/Readdata2_out" type="array">
+         <obj_property name="ElementShortName">Readdata2_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Readdata2_out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/Imm_out" type="array">
+         <obj_property name="ElementShortName">Imm_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Imm_out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/funct_out" type="array">
+         <obj_property name="ElementShortName">funct_out[3:0]</obj_property>
+         <obj_property name="ObjectShortName">funct_out[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/Rs1_out" type="array">
+         <obj_property name="ElementShortName">Rs1_out[4:0]</obj_property>
+         <obj_property name="ObjectShortName">Rs1_out[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/Rs2_out" type="array">
+         <obj_property name="ElementShortName">Rs2_out[4:0]</obj_property>
+         <obj_property name="ObjectShortName">Rs2_out[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/ID_EX/Rd_out" type="array">
+         <obj_property name="ElementShortName">Rd_out[4:0]</obj_property>
+         <obj_property name="ObjectShortName">Rd_out[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1445" type="group">
+      <obj_property name="label">Execute - ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT6/a" type="array">
+         <obj_property name="ElementShortName">a[31:0]</obj_property>
+         <obj_property name="ObjectShortName">a[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT6/b" type="array">
+         <obj_property name="ElementShortName">b[31:0]</obj_property>
+         <obj_property name="ObjectShortName">b[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT6/shamt" type="array">
+         <obj_property name="ElementShortName">shamt[4:0]</obj_property>
+         <obj_property name="ObjectShortName">shamt[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT6/r" type="array">
+         <obj_property name="ElementShortName">r[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT6/cf" type="logic">
+         <obj_property name="ElementShortName">cf</obj_property>
+         <obj_property name="ObjectShortName">cf</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT6/zf" type="logic">
+         <obj_property name="ElementShortName">zf</obj_property>
+         <obj_property name="ObjectShortName">zf</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT6/vf" type="logic">
+         <obj_property name="ElementShortName">vf</obj_property>
+         <obj_property name="ObjectShortName">vf</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT6/sf" type="logic">
+         <obj_property name="ElementShortName">sf</obj_property>
+         <obj_property name="ObjectShortName">sf</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT6/alufn" type="array">
+         <obj_property name="ElementShortName">alufn[3:0]</obj_property>
+         <obj_property name="ObjectShortName">alufn[3:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT6/add" type="array">
+         <obj_property name="ElementShortName">add[31:0]</obj_property>
+         <obj_property name="ObjectShortName">add[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT6/op_b" type="array">
+         <obj_property name="ElementShortName">op_b[31:0]</obj_property>
+         <obj_property name="ObjectShortName">op_b[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT6/sh" type="array">
+         <obj_property name="ElementShortName">sh[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sh[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1444" type="group">
+      <obj_property name="label">Execture - ALUControl</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/RISCV_tb/Seba/dut9/ALUOp" type="array">
+         <obj_property name="ElementShortName">ALUOp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUOp[1:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/dut9/instruction" type="array">
+         <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+         <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/dut9/ALUselect" type="array">
+         <obj_property name="ElementShortName">ALUselect[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUselect[3:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1287" type="group">
+      <obj_property name="label">EX/MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/load" type="logic">
+         <obj_property name="ElementShortName">load</obj_property>
+         <obj_property name="ObjectShortName">load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/RegWrite_in" type="logic">
+         <obj_property name="ElementShortName">RegWrite_in</obj_property>
+         <obj_property name="ObjectShortName">RegWrite_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/branch_in" type="logic">
+         <obj_property name="ElementShortName">branch_in</obj_property>
+         <obj_property name="ObjectShortName">branch_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/MemRead_in" type="logic">
+         <obj_property name="ElementShortName">MemRead_in</obj_property>
+         <obj_property name="ObjectShortName">MemRead_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/MemWrite_in" type="logic">
+         <obj_property name="ElementShortName">MemWrite_in</obj_property>
+         <obj_property name="ObjectShortName">MemWrite_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/Instr_in" type="array">
+         <obj_property name="ElementShortName">Instr_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Instr_in[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/jal_in" type="logic">
+         <obj_property name="ElementShortName">jal_in</obj_property>
+         <obj_property name="ObjectShortName">jal_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/jalr_in" type="logic">
+         <obj_property name="ElementShortName">jalr_in</obj_property>
+         <obj_property name="ObjectShortName">jalr_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/auipc_in" type="logic">
+         <obj_property name="ElementShortName">auipc_in</obj_property>
+         <obj_property name="ObjectShortName">auipc_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/lui_in" type="logic">
+         <obj_property name="ElementShortName">lui_in</obj_property>
+         <obj_property name="ObjectShortName">lui_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/branch_add_in" type="array">
+         <obj_property name="ElementShortName">branch_add_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">branch_add_in[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/zero_in" type="logic">
+         <obj_property name="ElementShortName">zero_in</obj_property>
+         <obj_property name="ObjectShortName">zero_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/c_flag_in" type="logic">
+         <obj_property name="ElementShortName">c_flag_in</obj_property>
+         <obj_property name="ObjectShortName">c_flag_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/s_flag_in" type="logic">
+         <obj_property name="ElementShortName">s_flag_in</obj_property>
+         <obj_property name="ObjectShortName">s_flag_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/v_flag_in" type="logic">
+         <obj_property name="ElementShortName">v_flag_in</obj_property>
+         <obj_property name="ObjectShortName">v_flag_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/ALU_result_in" type="array">
+         <obj_property name="ElementShortName">ALU_result_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_result_in[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/Readdata2_in" type="array">
+         <obj_property name="ElementShortName">Readdata2_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Readdata2_in[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/Rd_in" type="array">
+         <obj_property name="ElementShortName">Rd_in[4:0]</obj_property>
+         <obj_property name="ObjectShortName">Rd_in[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/imm_in" type="array">
+         <obj_property name="ElementShortName">imm_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">imm_in[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/funct3_in" type="array">
+         <obj_property name="ElementShortName">funct3_in[2:0]</obj_property>
+         <obj_property name="ObjectShortName">funct3_in[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/RegWrite_out" type="logic">
+         <obj_property name="ElementShortName">RegWrite_out</obj_property>
+         <obj_property name="ObjectShortName">RegWrite_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/branch_out" type="logic">
+         <obj_property name="ElementShortName">branch_out</obj_property>
+         <obj_property name="ObjectShortName">branch_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/MemRead_out" type="logic">
+         <obj_property name="ElementShortName">MemRead_out</obj_property>
+         <obj_property name="ObjectShortName">MemRead_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/MemWrite_out" type="logic">
+         <obj_property name="ElementShortName">MemWrite_out</obj_property>
+         <obj_property name="ObjectShortName">MemWrite_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/Instr_out" type="array">
+         <obj_property name="ElementShortName">Instr_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Instr_out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/jal_out" type="logic">
+         <obj_property name="ElementShortName">jal_out</obj_property>
+         <obj_property name="ObjectShortName">jal_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/jalr_out" type="logic">
+         <obj_property name="ElementShortName">jalr_out</obj_property>
+         <obj_property name="ObjectShortName">jalr_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/auipc_out" type="logic">
+         <obj_property name="ElementShortName">auipc_out</obj_property>
+         <obj_property name="ObjectShortName">auipc_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/lui_out" type="logic">
+         <obj_property name="ElementShortName">lui_out</obj_property>
+         <obj_property name="ObjectShortName">lui_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/branch_add_out" type="array">
+         <obj_property name="ElementShortName">branch_add_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">branch_add_out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/zero_out" type="logic">
+         <obj_property name="ElementShortName">zero_out</obj_property>
+         <obj_property name="ObjectShortName">zero_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/c_flag_out" type="logic">
+         <obj_property name="ElementShortName">c_flag_out</obj_property>
+         <obj_property name="ObjectShortName">c_flag_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/s_flag_out" type="logic">
+         <obj_property name="ElementShortName">s_flag_out</obj_property>
+         <obj_property name="ObjectShortName">s_flag_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/v_flag_out" type="logic">
+         <obj_property name="ElementShortName">v_flag_out</obj_property>
+         <obj_property name="ObjectShortName">v_flag_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/ALU_result_out" type="array">
+         <obj_property name="ElementShortName">ALU_result_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_result_out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/Readdata2_out" type="array">
+         <obj_property name="ElementShortName">Readdata2_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Readdata2_out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/Rd_out" type="array">
+         <obj_property name="ElementShortName">Rd_out[4:0]</obj_property>
+         <obj_property name="ObjectShortName">Rd_out[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/imm_out" type="array">
+         <obj_property name="ElementShortName">imm_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">imm_out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/EM_MEM/funct3_out" type="array">
+         <obj_property name="ElementShortName">funct3_out[2:0]</obj_property>
+         <obj_property name="ObjectShortName">funct3_out[2:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group303" type="group">
+      <obj_property name="label">MEM/WB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/RISCV_tb/Seba/MEM_WB/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/MEM_WB/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/MEM_WB/load" type="logic">
+         <obj_property name="ElementShortName">load</obj_property>
+         <obj_property name="ObjectShortName">load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/MEM_WB/memout_in" type="array">
+         <obj_property name="ElementShortName">memout_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">memout_in[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/MEM_WB/ALU_out_in" type="array">
+         <obj_property name="ElementShortName">ALU_out_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_out_in[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/MEM_WB/RegWrite_in" type="logic">
+         <obj_property name="ElementShortName">RegWrite_in</obj_property>
+         <obj_property name="ObjectShortName">RegWrite_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/MEM_WB/Rd_in" type="array">
+         <obj_property name="ElementShortName">Rd_in[4:0]</obj_property>
+         <obj_property name="ObjectShortName">Rd_in[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/MEM_WB/funct3_in" type="array">
+         <obj_property name="ElementShortName">funct3_in[2:0]</obj_property>
+         <obj_property name="ObjectShortName">funct3_in[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/MEM_WB/branch_add_in" type="array">
+         <obj_property name="ElementShortName">branch_add_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">branch_add_in[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/MEM_WB/imm_in" type="array">
+         <obj_property name="ElementShortName">imm_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">imm_in[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/MEM_WB/auipc_in" type="logic">
+         <obj_property name="ElementShortName">auipc_in</obj_property>
+         <obj_property name="ObjectShortName">auipc_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/MEM_WB/jal_in" type="logic">
+         <obj_property name="ElementShortName">jal_in</obj_property>
+         <obj_property name="ObjectShortName">jal_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/MEM_WB/jalr_in" type="logic">
+         <obj_property name="ElementShortName">jalr_in</obj_property>
+         <obj_property name="ObjectShortName">jalr_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/MEM_WB/lui_in" type="logic">
+         <obj_property name="ElementShortName">lui_in</obj_property>
+         <obj_property name="ObjectShortName">lui_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/MEM_WB/MemRead_in" type="logic">
+         <obj_property name="ElementShortName">MemRead_in</obj_property>
+         <obj_property name="ObjectShortName">MemRead_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/MEM_WB/memout_out" type="array">
+         <obj_property name="ElementShortName">memout_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">memout_out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/MEM_WB/ALU_out_out" type="array">
+         <obj_property name="ElementShortName">ALU_out_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_out_out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/MEM_WB/RegWrite_out" type="logic">
+         <obj_property name="ElementShortName">RegWrite_out</obj_property>
+         <obj_property name="ObjectShortName">RegWrite_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/MEM_WB/Rd_out" type="array">
+         <obj_property name="ElementShortName">Rd_out[4:0]</obj_property>
+         <obj_property name="ObjectShortName">Rd_out[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/MEM_WB/funct3_out" type="array">
+         <obj_property name="ElementShortName">funct3_out[2:0]</obj_property>
+         <obj_property name="ObjectShortName">funct3_out[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/MEM_WB/branch_add_out" type="array">
+         <obj_property name="ElementShortName">branch_add_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">branch_add_out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/MEM_WB/imm_out" type="array">
+         <obj_property name="ElementShortName">imm_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">imm_out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/MEM_WB/auipc_out" type="logic">
+         <obj_property name="ElementShortName">auipc_out</obj_property>
+         <obj_property name="ObjectShortName">auipc_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/MEM_WB/jal_out" type="logic">
+         <obj_property name="ElementShortName">jal_out</obj_property>
+         <obj_property name="ObjectShortName">jal_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/MEM_WB/jalr_out" type="logic">
+         <obj_property name="ElementShortName">jalr_out</obj_property>
+         <obj_property name="ObjectShortName">jalr_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/MEM_WB/lui_out" type="logic">
+         <obj_property name="ElementShortName">lui_out</obj_property>
+         <obj_property name="ObjectShortName">lui_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/MEM_WB/MemRead_out" type="logic">
+         <obj_property name="ElementShortName">MemRead_out</obj_property>
+         <obj_property name="ObjectShortName">MemRead_out</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group351" type="group">
+      <obj_property name="label">Branch Unit</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/RISCV_tb/Seba/BU/branch" type="logic">
+         <obj_property name="ElementShortName">branch</obj_property>
+         <obj_property name="ObjectShortName">branch</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/BU/z_flag" type="logic">
+         <obj_property name="ElementShortName">z_flag</obj_property>
+         <obj_property name="ObjectShortName">z_flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/BU/c_flag" type="logic">
+         <obj_property name="ElementShortName">c_flag</obj_property>
+         <obj_property name="ObjectShortName">c_flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/BU/s_flag" type="logic">
+         <obj_property name="ElementShortName">s_flag</obj_property>
+         <obj_property name="ObjectShortName">s_flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/BU/v_flag" type="logic">
+         <obj_property name="ElementShortName">v_flag</obj_property>
+         <obj_property name="ObjectShortName">v_flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/BU/funct3" type="array">
+         <obj_property name="ElementShortName">funct3[2:0]</obj_property>
+         <obj_property name="ObjectShortName">funct3[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/BU/branch_out" type="logic">
+         <obj_property name="ElementShortName">branch_out</obj_property>
+         <obj_property name="ObjectShortName">branch_out</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group343" type="group">
+      <obj_property name="label">PC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT2/D" type="array">
+         <obj_property name="ElementShortName">D[31:0]</obj_property>
+         <obj_property name="ObjectShortName">D[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT2/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT2/load" type="logic">
+         <obj_property name="ElementShortName">load</obj_property>
+         <obj_property name="ObjectShortName">load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT2/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT2/Q" type="array">
+         <obj_property name="ElementShortName">Q[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Q[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT2/muxoutput" type="array">
+         <obj_property name="ElementShortName">muxoutput[31:0]</obj_property>
+         <obj_property name="ObjectShortName">muxoutput[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_tb/Seba/DUT2/n" type="array">
+         <obj_property name="ElementShortName">n[31:0]</obj_property>
+         <obj_property name="ObjectShortName">n[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/RISCV_tb/Seba/flush" type="logic">
+      <obj_property name="ElementShortName">flush</obj_property>
+      <obj_property name="ObjectShortName">flush</obj_property>
+   </wvobject>
+</wave_config>
